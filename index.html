@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/index.css">
+    <title>MiniStudio - 迷你工作室</title>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <!-- 导航栏 -->
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold text-gray-800">MiniStudio</a>
+            <div class="space-x-4">
+                <a href="#" class="text-gray-600 hover:text-gray-800">首页</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800">关于我们</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800">服务</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800">联系我们</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section class="bg-cover bg-center py-24" style="background-image: url('https://picsum.photos/1920/1080');">
+        <div class="container mx-auto px-4 text-center text-white">
+            <h1 class="text-4xl font-bold mb-4">欢迎来到 MiniStudio</h1>
+            <p class="text-lg mb-8">我们是一家专注于创新和品质的迷你工作室。</p>
+            <a href="#"
+                class="bg-white text-gray-800 py-2 px-6 rounded-full hover:bg-gray-200 transition-colors duration-300">了解更多</a>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section class="container mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">关于我们</h2>
+        <p class="text-gray-600 leading-relaxed">MiniStudio 是一个充满创意和激情的团队，我们致力于为客户提供高质量的
+            产品和服务。我们拥有丰富的经验和专业的技能，能够满足不同客户的需求。</p>
+    </section>
+
+    <!-- 服务 -->
+    <section class="bg-gray-200 py-16">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">我们的服务</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-md shadow-md">
+                    <i class="fa-solid fa-pencil-ruler text-3xl text-gray-600 mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">设计服务</h3>
+                    <p class="text-gray-600 leading-relaxed">我们提供专业的设计服务，包括平面设计、UI/UX 设计等。</p>
+                </div>
+                <div class="bg-white p-6 rounded-md shadow-md">
+                    <i class="fa-solid fa-code text-3xl text-gray-600 mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">开发服务</h3>
+                    <p class="text-gray-600 leading-relaxed">我们擅长网站开发、移动应用开发等，为客户打造高效的解决方案。</p>
+                </div>
+                <div class="bg-white p-6 rounded-md shadow-md">
+                    <i class="fa-solid fa-chart-line text-3xl text-gray-600 mb-4"></i>
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">营销服务</h3>
+                    <p class="text-gray-600 leading-relaxed">我们提供全面的营销服务，帮助客户提升品牌知名度和业务增长。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section class="container mx-auto px-4 py-16">
+        <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">联系我们</h2>
+        <form class="max-w-md mx-auto">
+            <div class="mb-4">
+                <label for="name" class="block text-gray-600 mb-1">姓名</label>
+                <input type="text" id="name" class="w-full border border-gray-300 p-2 rounded-md" placeholder="请输入您的姓名">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-gray-600 mb-1">邮箱</label>
+                <input type="email" id="email" class="w-full border border-gray-300 p-2 rounded-md"
+                    placeholder="请输入您的邮箱">
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block text-gray-600 mb-1">留言</label>
+                <textarea id="message" rows="4" class="w-full border border-gray-300 p-2 rounded-md"
+                    placeholder="请输入您的留言"></textarea>
+            </div>
+            <button type="submit"
+                class="bg-gray-800 text-white py-2 px-6 rounded-full hover:bg-gray-900 transition-colors duration-300">发送留言</button>
+        </form>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2025 MiniStudio. 保留所有权利。</p>
+        </div>
+    </footer>
+</body>
+
+</html>    
